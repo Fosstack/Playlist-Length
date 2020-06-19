@@ -2,6 +2,7 @@ from setuptools import setup
 
 from playlist_length.__version__ import __version__
 
+import os 
 
 requires = (
     'huepy==0.9.6',
